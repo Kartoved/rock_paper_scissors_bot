@@ -9,7 +9,7 @@ class TgBot:
 
 @dataclass
 class Config:
-    tg_bot = TgBot
+    tg_bot: TgBot
 
 
 def load_config(path: str | None = None) -> Config:
